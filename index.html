@@ -1,8 +1,78 @@
+<!DOCTYPE html>
+
 <html>
     <head>
-
+        <title>Modifica o título da pagina</title>
+        <meta charset = "utf-8"/> <!-- Definir a codificação da página, acentos, ç, etc-->
     </head>
     <body>
+        <!--Tag utilizada para título, vai de h1 até h6-->  
+        <h1>Título 1</h1> <!--Boas práticas é ter apenas um título h1 na sua página-->
+        <h2>Sub-título</h2>
+
+        <!--Tag utilizada para parágrafo-->
+        <p>Um cidadão fez voto de desapego e pobreza. Dispôs de todos os seus bens e propriedades, reservou para si apenas duas tangas, e saiu pelo mundo afora em busca de todos os sábios, medindo na verdade o desapego de cada um. Levava apenas uma tanga no corpo.
+            Estava convencido de não encontrar quem ganhasse de si em despojamento, quando soube de um velho guru. Tomando as direções, parte ao encontro do velho sábio.</p>
+        
+        <!--Tags de formatação-->
+        <p>Parágrafo com texto em negrito<b>Esse texto ficará em negrito</b></p>
+        <strong>Sinaliza para o google que o texto é mais importante, SEO, o padrão é utilizar a tag strong ao invés de b</strong>
+        <p>Texto em <i>itálico</i></p>
+        <p><em>Dá enfáse no texto, tag mais semântica</em></p>
+        <p>Esse é um <mark>texto com marcação</mark></p>
+        <p>Esse é um texto <smal>com a tag small</smal></p>
+        <p>texto que foi removido <del>palavra removida</del> palavra substituida, o del tem semântica, a tag "s" não</p>
+        <p> Texto <ins>que foi adicionado, sublinhando, tag semântica</ins></p>
+        <p> Texto <sub>aqui fica embaixo</sub>subescrito, F<sub>2</sub></p>
+        <p> Texto em cima agora, com sup<sup>Observe</sup>, X<sup>2</sup> = 10</p>
+
+        <!--Tag utilizada para adicionar link-->
+        <a href ="sobre.html">Sobre Lucas</a>
+
+        <br/> <!--Tag para pular linha-->
+
+        <!--Adicionando imagens-->
+        <a href="https://jornaldoempreendedor.com.br/destaques/inspiracao/a-diferenca-entre-o-sucesso-e-o-fracasso/">
+            <img src="https://jornaldoempreendedor.com.br/wp-content/uploads/2014/09/sucesso-pessoas-empreendedor.jpg" alt ="Sucesso" width=300>
+        </a>
+        <br/>
+        <img src="assets/imagemCV.png" alt ="Palácio Esmaecido" height=300>
+
+        <!--Começando a criar listas-->
+        <!--Lista não ordenada-->
+        <h2>Lista qualquer</h2>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+        <!--Lista ordenada-->
+        <h2>Os melhores jogos</h2>
+        <ol>
+            <li>Dota 2</li>
+            <li>League of Legends</li>
+            <li>WoW</li>
+        </ol>
+
+        <!--Criar uma tabela com HTML-->
+        <table>
+            <tr>
+                <th>Nome</th> <!--Cabeçalho da tabela-->
+                <th>Telefone</th>
+                <th>Email</th> 
+            </tr>
+            <tr>
+                <td>Lucas</td>
+                <td>83 999037571</td>
+                <td>lucas.dechenieroliveira@hotmail.com</td>
+            </tr>
+            <tr>
+                <td>Outro nome</td>
+                <td>Outro telefone</td>
+                <td>Outro Email</td>
+            </tr>
+        </table>
 
     </body>
 </html>
